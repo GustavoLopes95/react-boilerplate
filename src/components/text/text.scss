@@ -1,0 +1,34 @@
+@import '../../index';
+
+.c-text {
+  color: $gray1;
+  font-size: $font-size;
+  line-height: 1.3em;
+  white-space: pre-line;
+}
+
+.c-text--bold {
+  font-weight: 500 !important;
+}
+
+.c-text--sm,
+.c-text--md,
+.c-text--lg {
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+
+.c-text--xsm {
+  font-size: 0.5em;
+}
+.c-text--sm {
+  font-size: 1em;
+}
+
+.c-text--md {
+  font-size: 1.5em;
+}
+
+.c-text--lg {
+  font-size: 2em;
+}
